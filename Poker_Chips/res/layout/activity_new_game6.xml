@@ -1,0 +1,286 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.poker_chips.StartGame" 
+    android:background="@drawable/table"
+    android:id="@+id/newGame6" >
+     
+      <ImageView
+         android:id="@+id/image1_below"
+         android:layout_width="@dimen/pile_size"
+         android:layout_height="@dimen/pile_size"
+         android:layout_below="@+id/image1"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="@dimen/pile_tbLong_margin"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="@dimen/pile_side_margin"
+         android:contentDescription="player 1 pile_of_chips"
+         android:src="@drawable/dchip_quadruple" /> 
+      
+      <ImageView
+         android:id="@+id/image1"
+         android:layout_width="@dimen/chip_size"
+         android:layout_height="@dimen/chip_size"
+         android:layout_below="@+id/image1"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="@dimen/chip_tbLong_margin"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="@dimen/chip_side_margin"
+         android:contentDescription="player 1 chips"
+         android:src="@drawable/dchip" /> 
+         
+      <ImageView
+         android:id="@+id/image2_below"
+         android:layout_width="@dimen/pile_size"
+         android:layout_height="@dimen/pile_size"
+         android:layout_below="@+id/image1"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="@dimen/pile_tbLong_margin"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="@dimen/pile_side_margin"
+         android:contentDescription="player 2 pile_of_chips"
+         android:src="@drawable/dchip_quadruple" />
+      
+      <ImageView
+         android:id="@+id/image2"
+         android:layout_width="@dimen/chip_size"
+         android:layout_height="@dimen/chip_size"
+         android:layout_below="@+id/image1"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="@dimen/chip_tbLong_margin"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="@dimen/chip_side_margin"
+         android:contentDescription="player 2 chips"
+         android:src="@drawable/dchip" />
+      
+       <ImageView
+         android:id="@+id/image6_below"
+         android:layout_width="@dimen/pile_size"
+         android:layout_height="@dimen/pile_size"
+         android:layout_centerVertical="true"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="@dimen/pile_side_margin"
+         android:contentDescription="player 6 pile_of_chips"
+         android:src="@drawable/dchip_quadruple" /> 
+
+         
+   <ImageView
+         android:id="@+id/image6"
+         android:layout_width="@dimen/chip_size"
+         android:layout_height="@dimen/chip_size"
+         android:layout_centerVertical="true"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="@dimen/chip_side_margin"
+         android:contentDescription="player 6 chips"
+         android:src="@drawable/dchip" /> 
+
+   <ImageView
+         android:id="@+id/image3_below"
+         android:layout_width="@dimen/pile_size"
+         android:layout_height="@dimen/pile_size"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="@dimen/pile_side_margin"
+         android:layout_centerVertical="true"
+         android:contentDescription="player 3 pile_of_chips"
+         android:src="@drawable/dchip_quadruple" /> 
+   
+      <ImageView
+         android:id="@+id/image3"
+         android:layout_width="@dimen/chip_size"
+         android:layout_height="@dimen/chip_size"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="@dimen/chip_side_margin"
+         android:layout_centerVertical="true"
+         android:contentDescription="player 3 chips"
+         android:src="@drawable/dchip" /> 
+         
+      <ImageView
+         android:id="@+id/image4_below"
+         android:layout_width="@dimen/pile_size"
+         android:layout_height="@dimen/pile_size"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="@dimen/pile_side_margin"
+         android:contentDescription="player 4 piles"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="@dimen/pile_tbLong_margin"
+         android:src="@drawable/dchip_quadruple" />
+
+	<ImageView
+         android:id="@+id/image4"
+         android:layout_width="@dimen/chip_size"
+         android:layout_height="@dimen/chip_size"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="@dimen/chip_side_margin"
+         android:contentDescription="player 4 chips"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="@dimen/chip_tbLong_margin"
+         android:src="@drawable/dchip" /> 
+         
+	<ImageView
+         android:id="@+id/image5_below"
+         android:layout_width="@dimen/pile_size"
+         android:layout_height="@dimen/pile_size"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="@dimen/pile_tbLong_margin"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="@dimen/pile_side_margin"
+         android:contentDescription="player 5 piles"
+         android:src="@drawable/dchip_quadruple" />
+
+     <ImageView
+         android:id="@+id/image5"
+         android:layout_width="@dimen/chip_size"
+         android:layout_height="@dimen/chip_size"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="@dimen/chip_tbLong_margin"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="@dimen/chip_side_margin"
+         android:contentDescription="player 5 chips"
+         android:src="@drawable/dchip" />
+     
+
+
+         <TextView
+             android:id="@+id/pot_amount"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_centerHorizontal="true"
+             android:text="$0"
+             android:textSize="@dimen/pot_amount_text"
+             android:textColor="#FFF4E6" />
+
+         <TextView
+             android:id="@+id/bet_amount"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+			 android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:text="0.0"
+             android:textSize="@dimen/bet_amount_text"
+             android:textColor="#FFF4E6" />
+         
+         <View
+        	android:id="@+id/anchor"
+        	android:layout_width="0dp"
+        	android:layout_height="0dp"
+        	android:layout_centerInParent="true" />
+          
+         <Button
+             android:id="@+id/bet_button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+         	 android:layout_marginBottom="2dp"
+         	 android:layout_marginLeft="20dp"
+             android:layout_toRightOf="@+id/anchor"
+             android:onClick="BetFunction"
+             android:text="@string/bet_button" />
+         
+         <Button
+             android:id="@+id/fold_button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+         	 android:layout_marginBottom="2dp"
+         	 android:layout_marginRight="20dp"
+             android:layout_toLeftOf="@+id/anchor"
+             android:onClick="FoldFunction"
+             android:text="@string/fold_button" />  
+
+         <SeekBar
+             android:id="@+id/seekbar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_below="@+id/bet_amount" />
+         
+         <TextView
+             android:id="@+id/chipsP5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignTop="@+id/image5_below"
+             android:layout_toRightOf="@+id/image5_below"
+             android:rotation="90"
+             android:text="1000"
+             android:textSize="20sp"
+             android:textColor="#FFF4E6" />
+         <TextView
+             android:id="@+id/chipsP6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignTop="@+id/image6_below"
+             android:layout_toRightOf="@+id/image6_below"
+             android:rotation="90"
+             android:text="1000"
+             android:textSize="20sp"
+             android:textColor="#FFF4E6" />
+         <TextView
+             android:id="@+id/chipsP1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignTop="@+id/image1_below"
+             android:layout_toRightOf="@+id/image1_below"
+             android:rotation="90"
+             android:text="1000"
+             android:textSize="20sp"
+             android:textColor="#FFF4E6" />
+         <TextView
+             android:id="@+id/chipsP2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignTop="@+id/image2_below"
+             android:layout_toLeftOf="@+id/image2_below"
+             android:rotation="270"
+             android:text="1000"
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+         <TextView
+             android:id="@+id/chipsP3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignTop="@+id/image3_below"
+             android:layout_toLeftOf="@+id/image3_below"
+             android:rotation="270"
+             android:text="1000"
+             android:textSize="20sp"
+             android:textColor="#FFF4E6" />
+         <TextView
+             android:id="@+id/chipsP4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignTop="@+id/image4_below"
+             android:layout_toLeftOf="@+id/image4_below"
+             android:rotation="270"
+             android:text="1000"
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+         
+         <Spinner
+ 		    android:id="@+id/Winner"
+ 		    android:layout_width="50dp"
+ 		    android:layout_height="50dp"
+ 		    android:layout_below="@+id/pot_amount"
+ 		    android:layout_centerHorizontal="true"
+ 		    android:drawSelectorOnTop = "true"
+ 		    android:entries = "@array/spinnerItems6"
+ 		    android:background="#FFFFFF"
+ 		    android:focusable="true"
+ 		    android:paddingLeft="12dp" />
+         
+         <Button
+        	android:id="@+id/Win"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerHorizontal="true"
+        	android:layout_below="@+id/Winner"
+        	android:text="@string/win_button"
+        	android:onClick = "StartGame"/>
+     
+     
+</RelativeLayout>

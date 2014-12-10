@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/casino"
+    tools:context="com.example.poker_chips.HelpActivity"
+    android:id="@+id/Help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        
+        <TextView
+             android:id="@+id/HelpTop"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Help Contents:"
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"
+             />
+        <TextView
+             android:id="@+id/H1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="	1: Use the App"
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"
+             android:layout_alignBottom="@+id/HelpTop"/>
+        <TextView
+             android:id="@+id/H2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="	2: Play Poker"
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"
+             android:layout_alignBottom="@+id/H1"/>
+        <TextView
+             android:id="@+id/H3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Use the App
+             
+             "
+             android:textSize="40sp" 
+             android:textColor="#FFF4E6"
+             android:layout_centerHorizontal="true"
+             android:layout_alignBottom="@+id/H2"/>
+
+        <SeekBar
+            android:id="@+id/useapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+         
+        <TextView
+             android:id="@+id/HelpSeek"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/seekbar"
+             android:text="Above this is the betting bar, use it to determine the amount of money you would like to spend on each bet by dragging the blue ball. When you have reached the correct amount submit using the Bet Button."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+        <TextView
+             android:id="@+id/spacing1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/HelpSeek"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+        <TextView
+             android:id="@+id/HelpChip"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/spacing1"
+             android:text="The orange chip indicates what player is up to bet and all the players with green chips are waiting for this player to either bet or fold."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+        <TextView
+             android:id="@+id/spacing2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/HelpSeek"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+        <TextView
+             android:id="@+id/EndHand"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/spacing2"
+             android:text="At the end of each hand, the player who won the pot is selected using the button under the pot. To do this, the winner simply has to select their player number from the menu below the pot."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+        <TextView
+             android:id="@+id/spacing4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/EndHand"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+        <TextView
+             android:id="@+id/spacing5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/spacing4"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+		<TextView
+             android:id="@+id/spacing3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/spacing4"
+             android:layout_centerHorizontal="true"
+             android:text="Play Poker
+             "
+             android:textSize="40sp" 
+             android:textColor="#FFF4E6"/>
+		
+		<TextView
+             android:id="@+id/HowToStart"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/spacing3"
+             android:text="While Poker is played in innumerable forms, a player who understands the values of the Poker hands and the principles of betting can play without difficulty in any type of Poker game. Except in a few versions of the game, a Poker hand consists of five cards. The various combinations of Poker hands rank from five of a kind (the highest) to no pair or nothing (the lowest):"
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+		<TextView
+             android:id="@+id/space1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/HowToStart"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+		<TextView
+             android:id="@+id/Fivek"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space1"
+             android:text="
+             Five of a Kind:
+	This is the highest possible hand and can occur only in games where at least one card is wild, such as a joker, the two one-eyed jacks, or the four deuces. Examples of five of a kind would be four 10s and a wild card or two queens and three wild cards."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+		<TextView
+             android:id="@+id/space2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/FiveK"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+		
+		<TextView
+             android:id="@+id/sFlush"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space2"
+             android:text="
+		     Straight Flush:
+	This is the highest possible hand when only the standard pack is used, and there are no wild cards. A straight flush consists of five cards of the same suit in sequence, such as 10, 9, 8, 7, 6 of hearts. The highest-ranking straight flush is the A, K, Q, J, and 10 of one suit, and this combination has a special name: a royal flush or a royal straight flush. The odds on being dealt this hand are 1 in almost 650,000."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+		<TextView
+             android:id="@+id/space3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/sFlush"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+             
+        <TextView
+             android:id="@+id/FourK"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space3"
+             android:text="
+             Four of a Kind:
+	This is the next highest hand, and it ranks just below a straight flush. An example is four aces or four 3s. It does not matter what the fifth, unmatched card is."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+        <TextView
+             android:id="@+id/space4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/FourK"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+             
+       <TextView
+             android:id="@+id/FullH"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space4"
+             android:text="
+             Full House:
+	This colorful hand is made up of three cards of one rank and two cards of another rank, such as three 8s and two 4s, or three aces and two 6s."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+       <TextView
+             android:id="@+id/space5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/FullH"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+       <TextView
+             android:id="@+id/Flush"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space5"
+             android:text="
+             Flush:
+	Five cards all of the same suit, but not all in sequence, is a flush. An example is Q, 10, 7, 6, and 2 of clubs."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+       <TextView
+             android:id="@+id/space6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/Flush"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+       <TextView
+             android:id="@+id/straight"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space6"
+             android:text="
+             Straight:
+	Five cards in sequence, but not all of the same suit is a straight. An example is 9♥, 8♣, 7♠, 6♦, 5♥."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+       <TextView
+             android:id="@+id/space7"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/straight"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+             
+       <TextView
+             android:id="@+id/ThreeK"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space7"
+             android:text="
+             Three of a Kind:
+	This combination contains three cards of the same rank, and the other two cards each of a different rank, such as three jacks, a seven, and a four."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+       <TextView
+             android:id="@+id/space8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/ThreeK"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+             
+       <TextView
+             android:id="@+id/twoP"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space8"
+             android:text="
+             Two Pairs:
+	This hand contains a pair of one rank and another pair of a different rank, plus any fifth card of a different rank, such as Q, Q, 7, 7, 4."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+       <TextView
+             android:id="@+id/space9"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/twoP"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+             
+       <TextView
+             android:id="@+id/OneP"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space9"
+             android:text="
+             One Pair:
+	This frequent combination contains just one pair with the other three cards being of different rank. An example is 10, 10, K, 4, 3."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+       <TextView
+             android:id="@+id/space10"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/OneP"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+         
+       <TextView
+             android:id="@+id/NoP"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space10"
+             android:text="
+             No Pair:
+	This very common hand contains 'nothing'. None of the five cards pair up, nor are all five cards of the same suit or consecutive in rank. When more than one player has no pair, the hands are rated by the highest card each hand contains, so that an ace-high hand beats a king-high hand, and so on."
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+       <TextView
+             android:id="@+id/space11"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/NoP"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+             
+        <TextView
+             android:id="@+id/Tie"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/space11"
+             android:text="     
+	Two hands that are identical, card for card, are tied since the suits have no relative rank in Poker. In such a case, the tied players split the pot. Note that if two hands contain the same high pair, then the ranking of the next card in the hands determines which one wins. For example: 9, 9, 7, 4, 2 beats 9, 9, 5, 3, 2. Likewise, two hands that have identical pairs would be decided by the fifth card. For example: Q, Q, 6, 6, J beats Q, Q, 6, 6, 10."
+			 android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+        <TextView
+             android:id="@+id/space12"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/Tie"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+		<TextView
+             android:id="@+id/Bet"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/Tie"
+             android:text="
+      		Betting:
+
+	In the course of each Poker deal, there will be one or more betting intervals in which the players have an opportunity to bet on their hands. Betting is the key to Poker, for the game, in essence, is a game of chip management. Minimizing losses with poor hands and maximizing winnings with good hands is the underlying skill that Poker requires.
+	Before the cards are even dealt, the rules of the Poker game being played may require that each player put an initial contribution, called an ante, of one or more chips into the pot, to start it off.
+	Each betting interval, or round, begins when a player, in turn, makes a bet of one or more chips. Each player to the left, in turn, must either call that bet by putting into the pot the same number of chips; or raise, which means that he puts in more than enough chips to call; or drop (fold), which means that he puts no chips in the pot, discards his hand, and is out of the betting until the next deal.
+	When a player drops, he loses any chips he has put into that pot. Unless a player is willing to put into the pot at least as many chips as any preceding player, he must drop out.
+	A betting interval ends when the bets have been equalized - that is, when each player has either put in exactly as many chips as his predecessors or has dropped. There are usually two or more betting intervals for each Poker deal. After the final interval there is a showdown, which means that each player who remains shows his hand face up on the table. The best Poker hand then takes the pot."
+		android:textSize="20sp" 
+        android:textColor="#FFF4E6"/>
+		<TextView
+             android:id="@+id/space14"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/Bet"
+             android:text="
+             "
+             android:textSize="20sp" 
+             android:textColor="#FFF4E6"/>
+		
+		<TextView
+             android:id="@+id/Credit"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="
+             
+             
+             source of poker insructions: Bicycle Cards"
+             android:textSize="12sp" 
+             android:layout_alignBottom="@+id/space14"
+             android:textColor="#40FFFFFF"/>
+		
+    </LinearLayout>
+  
+</ScrollView>
+

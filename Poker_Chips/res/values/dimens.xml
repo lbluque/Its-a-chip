@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="chip_size">60dp</dimen>
+    <dimen name="pile_size">100dp</dimen>
+    <dimen name="chip_side_margin">20dp</dimen>
+    <dimen name="chip_tb_margin">60dp</dimen> 
+    <dimen name="chip_tbLong_margin">80dp</dimen>
+    <dimen name="pile_side_margin">20dp</dimen>
+    <dimen name="pile_tb_margin">60dp</dimen> 
+    <dimen name="pile_tbLong_margin">80dp</dimen>
+    
+     <dimen name="pot_amount_text">40sp</dimen>
+     <dimen name="bet_amount_text">40sp</dimen>
+
+</resources>
